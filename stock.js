@@ -3,5 +3,5 @@ const tickerButton = document.getElementById("ticker-submit");
 
 
 tickerButton.addEventListener("click", () => {
-    window.location.href = `result.html?ticker=${tickerInput.value}`;
+    window.location.href = `/result.html?ticker=${tickerInput.value}`;
 })
