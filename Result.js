@@ -23,8 +23,7 @@ fetch(`https://sp500backend.onrender.com/predict?ticker=${ticker}`)
         prediction = data.prediction;
         closePrice = data.close;
 
-        loading = false;
-        loadingDiv.data.loading = `${loading}`;
+        loadingDiv.data.loading = false;
         
         stockNameDiv.innerText = `Prediction for ${ticker}`;
         closePriceDiv.innerText = `Close Price: ${closePrice}`;
