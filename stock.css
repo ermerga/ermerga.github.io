@@ -3,8 +3,6 @@
   height: 500px;
   background-color: aliceblue;
   color: black;
-  cursor: pointer;
-  transition: transform 0.4s ease;
   border: 2px solid black;
   text-align: center;
   font-size: 10px;
