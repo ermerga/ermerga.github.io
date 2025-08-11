@@ -5,7 +5,6 @@ const stockNameDiv = document.getElementById("stock-name");
 const closePriceDiv = document.getElementById("close-price");
 const predictionDiv = document.getElementById("prediction");
 
-const loadingDiv = document.getElementById("content-div")
 
 let closePrice = "";
 let prediction = "";
@@ -23,7 +22,6 @@ fetch(`https://sp500backend.onrender.com/predict?ticker=${ticker}`)
         prediction = data.prediction;
         closePrice = data.close;
 
-        loadingDiv.data.loading = false;
         
         stockNameDiv.innerText = `Prediction for ${ticker}`;
         closePriceDiv.innerText = `Close Price: ${closePrice}`;

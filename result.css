@@ -8,7 +8,7 @@
     font-size: 20px;
 }
 
-.content-div[data-loading="true"] {
+/* .content-div[data-loading="true"] {
     border: 8px solid #f3f3f3;
     border-top: 8px solid #3498db;
     border-radius: 50%;
@@ -16,7 +16,7 @@
     height: 60px;
     animation: spin 1s linear infinite;
     
-}
+} */
 
 body{
   display: flex;
@@ -25,7 +25,7 @@ body{
 }
 
 
-@keyframes spin {
+/* @keyframes spin {
     0% {
         transform: rotate(0deg);
     }
@@ -33,4 +33,4 @@ body{
     100% {
         transform: rotate(360deg);
     }
-}
+} */
