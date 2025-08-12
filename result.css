@@ -17,3 +17,10 @@ body{
   align-items: center;
   height: 100vh;
 }
+.text-div {
+    height: 250px;
+    position: relative;
+}
+.button-div {
+ position: relative;
+}
