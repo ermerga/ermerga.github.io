@@ -5,6 +5,8 @@ const stockNameDiv = document.getElementById("stock-name");
 const closePriceDiv = document.getElementById("close-price");
 const predictionDiv = document.getElementById("prediction");
 
+const backButton = document.getElementById("back-button");
+
 
 let closePrice = "";
 let prediction = "";
@@ -31,5 +33,9 @@ fetch(`https://sp500backend.onrender.com/predict?ticker=${ticker}`)
         console.error(error);
         stockNameDiv.innerText = "Error fetching prediction";
     });
+
+backButton.addEventListener("click", () => {
+    window.location.href = "/stock.html";
+})
 
 
