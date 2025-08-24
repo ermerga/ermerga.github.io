@@ -1,7 +1,7 @@
 .content-div {
   width: 500px;
   height: 500px;
-  background-color: aliceblue;
+  background-color: lightseagreen;
   color: black;
   border: 2px solid black;
   text-align: center;
@@ -13,10 +13,16 @@
 .header-text {
     justify-content: center;
     font-size: 25px;
+    font-family: sans-serif;
 }
 body{
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
+  background-color: lightgray;
+}
+
+.stock-text {
+  font-size: 15px;
 }
