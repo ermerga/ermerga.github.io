@@ -27,7 +27,7 @@ fetch(`https://sp500backend.onrender.com/predict?ticker=${ticker}`)
         
         stockNameDiv.innerText = `Prediction for ${ticker.toUpperCase()}`;
         closePriceDiv.innerText = `Close Price: ${closePrice}`;
-        predictionDiv.innerText = `Prediction: ${prediction.toUpperCase()}`;
+        predictionDiv.innerText = `The model predicts the stock will go ${prediction.toUpperCase()} the next trading day.`;
     })
     .catch(error => {
         console.error(error);
