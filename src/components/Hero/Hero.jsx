@@ -6,9 +6,6 @@ function Hero() {
       <div className="hero-inner container">
         <p className="hero-greeting">Hi, I'm</p>
         <h1 className="hero-name">Garrett Ermer</h1>
-        <p className="hero-tagline">
-          Developer building things for the web.
-        </p>
         <div className="hero-links">
           <a
             href="https://github.com/ermerga"
