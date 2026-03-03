@@ -23,6 +23,11 @@ function ProjectCard({ project }) {
             Live Demo
           </a>
         )}
+        {project.demo && (
+          <a href={project.demo} target="_blank" rel="noopener noreferrer">
+            Watch Demo
+          </a>
+        )}
       </div>
     </div>
   )
