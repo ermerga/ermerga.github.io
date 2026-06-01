@@ -8,6 +8,14 @@ const projects = [
     github: 'https://github.com/ermerga/DataDungeon',
     demo: 'https://youtu.be/X8cJWFCvgPc',
   },
+  {
+    id: 2,
+    title: 'WeekNight',
+    description:
+      'An AI-powered meal planning app that auto-generates weekly meal plans and shopping lists. Guides you step-by-step while cooking so weeknight dinners are always covered.',
+    tech: ['Next.js', 'React', 'PostgreSQL'],
+    live: 'https://aifood-sandy.vercel.app',
+  },
 ]
 
 export default projects
